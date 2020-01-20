@@ -81,6 +81,40 @@ nav  a:hover {
   width: 100px;
 }
 
+.BlogContainer {
+  background-color: lightblue;
+}
+
+.BlogContainer-div {
+  display: inline-flex;
+  margin: 50px 20%;
+}
+
+.featuredBlogImage {
+  background-color: white;
+  vertical-align: top;
+  padding: 15px;
+  margin: 0 30px;
+  border-radius: 50%;
+  border: 2px solid black
+}
+
+.featuredBlogText {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.featuredBlogHeading {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.featuredBlog {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  /* padding-right: 400px; */
+}
+
 .FooterDiv {
   background-color: pink;
   /* display: inline-flex; */
