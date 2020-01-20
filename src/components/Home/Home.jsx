@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import imagePlaceholder from '../Home/makeup-small.png';
 
 
@@ -23,10 +24,10 @@ class Home extends Component {
                 <p>Micro Blading + Shading Services</p>
                     <img className="imgPlaceholder" src={imagePlaceholder} alt="black and white vector of woman sitting in front of a vanity desk" />
             </div>
-            <div>
-                <p>Powder Ombre Brows</p>
+                    <Link to="/powderombre"><div>
+                    <p>Powder Ombre Brows</p>
                     <img className="imgPlaceholder" src={imagePlaceholder} alt="black and white vector of woman sitting in front of a vanity desk" />
-            </div>
+                    </div></Link>
             <div>
                 <p>Lip Enhancement / Blusher</p>
                     <img className="imgPlaceholder" src={imagePlaceholder} alt="black and white vector of woman sitting in front of a vanity desk" />

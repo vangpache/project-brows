@@ -13,6 +13,7 @@ import Footer from '../Footer/Footer.jsx';
 import Blog from '../Blog/Blog.jsx';
 import About from '../About/About.jsx';
 import Gallery from '../Gallery/Gallery.jsx';
+import PowderOmbre from '../PowderOmbre/PowderOmbre.jsx';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/about" component={About} />
+
+        <Route exact path="/powderombre" component={PowderOmbre} />
       </body>
         </Switch>
         <footer>
