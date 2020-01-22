@@ -24,7 +24,7 @@ class Home extends Component {
                 <p>Micro Blading + Shading Services</p>
                     <img className="imgPlaceholder" src={imagePlaceholder} alt="black and white vector of woman sitting in front of a vanity desk" />
             </div>
-                    <Link to="/powderombre"><div>
+                    <Link className="BoxContainerLink" to="/powderombre"><div>
                     <p>Powder Ombre Brows</p>
                     <img className="imgPlaceholder" src={imagePlaceholder} alt="black and white vector of woman sitting in front of a vanity desk" />
                     </div></Link>
