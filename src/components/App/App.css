@@ -124,6 +124,7 @@ nav  a:hover {
   font-size: 1.5em;
 }
 
+/* need to clean up css for all blog divs that require the same styles */
 /* left and right containers will remain same height */
 .blog-container {
   display: flex;
@@ -133,19 +134,30 @@ nav  a:hover {
 
 .left-blog-container {
   background-color: pink;
-  width: 33%;
+  /* width: 50%; */
+  flex: 1;
   margin: 5px;
+  /* flex-basis: 100%; */
+}
+
+.left-blog-container div {
+  background-color: yellow;
+  margin: 4px;
+  flex: 1;
+  border: 5px solid rosybrown;
+  border-radius: 10px;
 }
 
 .right-blog-container {
   background-color: plum;
-  width: 66%;
+  /* width: 49%; */
+  flex: 1;
   margin: 5px;
 }
 
 /* this is the container for the first row of blogs on the right side */
 .blog-first-row {
-  background-color: peru;
+  /* background-color: peru; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -156,7 +168,69 @@ nav  a:hover {
   background-color: yellow;
   margin: 4px;
   flex: 1;
+  border: 5px solid rosybrown;
+  border-radius: 10px;
 }
+
+/* this is the container for the second row of blogs on the right side; left */
+.blog-second-row-container {
+  /* background-color: peru; */
+  /* margin: 2px; */
+  display: flex;
+  width: 100%;
+}
+
+/* this container breaks second row into blocks */
+.blog-blockcontainer {
+  /* background-color: white; */
+  display: block;
+  width: 50%;
+}
+
+.blog-second-row-thirds-container {
+  display: flex;
+  width: 100%;
+}
+
+.blog-thirds {
+  background-color: yellow;
+  margin:4px;
+  flex: 1;
+  border: 5px solid rosybrown;
+  border-radius: 10px;
+}
+
+.blog-thirds-bottom {
+  /* background-color: peru; */
+  display: flex;
+  /* margin: 2px; */
+  width: 100%;
+}
+
+.blog-thirds-bottom div {
+  background-color: yellow;
+  margin:4px;
+  flex: 1;
+  border: 5px solid rosybrown;
+  border-radius: 10px;
+}
+
+/* this is the container for the second row single blog on right */
+.blog-second-row-single {
+  /* background-color: white; */
+  display: flex;
+  /* margin: 2px; */
+  width: 50%
+}
+
+.blog-second-row-single div {
+  background-color: yellow;
+  margin: 4px;
+  flex: 1;
+  border: 5px solid rosybrown;
+  border-radius: 10px;
+}
+/* end styles for second row single blog on right */
 
 
 
